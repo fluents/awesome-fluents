@@ -1,0 +1,28 @@
+{
+  "name": "awesome-fluents",
+  "description": "A collection of awesome fluent interfaces / chainable apis",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "awesome-lint --verbose --debug --info"
+  },
+  "devDependencies": {
+    "awesome-lint": "^0.1.0"
+  },
+  "keywords": [
+    "fluent",
+    "chain",
+    "chainable",
+    "awesome",
+    "list"
+  ],
+  "author": "James <aretecode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fluents/awesome-fluents"
+  },
+  "homepage": "https://github.com/fluents/awesome-fluents",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluents/awesome-fluents.git"
+  }
+}

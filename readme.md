@@ -1,6 +1,7 @@
-# Awesome Fluent [![awesome.list](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![BuildStatus](https://travis-ci.org/fluents/awesome-fluents.svg?branch=master)](https://travis-ci.org/fluents/awesome-fluents)
+# Awesome Fluent [![awesome.list](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Build Status](https://travis-ci.org/fluents/awesome-fluents.svg?branch=master)](https://travis-ci.org/fluents/awesome-fluents)
 
 > A collection of awesome fluent interfaces / chainable apis
+
 
 ## Contents
 
@@ -9,10 +10,6 @@
 - [Classics](classics)
 - [My Fluent Packages](my%20fluent%20packages)
 - [Articles](articles)
-- [Example Comparison](example%20comparison)
-  - [setup](setup)
-  - [vanilla js](vanilla%20js)
-  - [chain](chain)
 - [Contribute](contribute)
 - [License](license)
 
@@ -28,9 +25,11 @@
 - [yargs](https://github.com/yargs/yargs) yargs the modern, pirate-themed, successor to optimist. -- *Maintainer*: `Benjamin E. Coe`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/bcoe)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/benjamincoe)
 - [supertest](https://github.com/visionmedia/supertest) SuperAgent driven library for testing HTTP servers -- *Maintainer*: `mikelax`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/mikelax)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/mikelax)
 - [testcafe](https://github.com/DevExpress/testcafe) Automated browser testing for the modern web development stack.
+- [async-chainable](https://github.com/hash-bang/async-chainable) Flow control functions for NodeJS -- *Maintainer*: ` David Porter`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/DesertLynx) -- *Maintainer*: `Matt Carter`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/hash-bang)
 
 ## Web and NodeJS
 
+- [d3](https://github.com/d3/d3) Data-Driven Documents -- *Maintainer*: `Mike Bostock`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/mbostock)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/mbostock)
 - [lodash](https://github.com/lodash) Lodash modular utilities. -- *Maintainer*: `John-David Dalton`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/jdalton)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/jdalton)
 - [fluture](https://github.com/fluture-js/fluture) FantasyLand compliant (monadic) alternative to Promises -- *Maintainer*: `Aldwin Vlasblom`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/Avaq)
 - [compromise](https://github.com/nlp-compromise/compromise) natural language processing in the browser -- *Maintainer*: `Spencer Kelly`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/spencermountain)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/spencermountain)
@@ -48,7 +47,7 @@
 
 ## My Fluent Packages
 
-- [flipchain](https://github.com/fluents/flipchain) core chaining library, heavily based on [webpack-chain](https://github.com/mozilla-rpweb/webpack-chain) -- *Maintainer*: `James`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/aretecode)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/aretecode)
+- [chain-able](https://github.com/fluents/chain-able) next level chaining. -- *Maintainer*: `James`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/aretecode)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/aretecode)
 - [bench-chain](https://github.com/fluents/bench-chain) benchmark recording - averages & graphs. -- *Maintainer*: `James`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/aretecode)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/aretecode)
 - [funwithflags](https://github.com/fluents/funwithflags) parse argument options -- *Maintainer*: `James`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/aretecode)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/aretecode)
 - [d-l-l](https://github.com/fliphub/d-l-l) easy, automatic, optimized dll config handler for webpack -- *Maintainer*: `James`[![Github](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/github-square.svg)](https://github.com/aretecode)[![Twitter](https://rawgit.com/d3viant0ne/awesome-webpack/master/media/twitter-square.svg)](https://twitter.com/aretecode)
@@ -63,12 +62,15 @@
 ## Articles
 
 - [designing js apis for usability (smashingmagazine)](https://www.smashingmagazine.com/2012/10/designing-javascript-apis-usability/)
-- [javascript like a boss, understanding fluent apis (sitepoint)](https://www.sitepoint.com/javascript-like-boss-understanding-fluent-apis/)
+- [js like a boss; understanding fluent apis (sitepoint)](https://www.sitepoint.com/javascript-like-boss-understanding-fluent-apis/)
 - [fluent apis & method chaining (modernweb)](https://modernweb.com/fluent-apis-and-method-chaining/)
 - [improve readibility with fluent apis](http://thejsguy.com/2016/01/05/improve-code-readability-in-javascript-with-fluent-interfaces.html)
 - [fluent js](http://nikas.praninskas.com/javascript/2015/04/26/fluent-javascript/)
 - [fluent interface (wikipedia)](https://en.wikipedia.org/wiki/Fluent_interface)
 - [Martin Fowler on FluentInterface](https://www.martinfowler.com/bliki/FluentInterface.html)
+
+
+
 
 
 ## Contribute
